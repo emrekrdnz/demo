@@ -1,0 +1,20 @@
+
+<div class="col-lg-6 col-md-12 col-sm-12"
+     ba-panel
+     ba-panel-title="Acquisition Channels"
+     ba-panel-class="medium-panel traffic-panel">
+	<traffic-chart></traffic-chart>
+</div>
+
+<div class="col-lg-6 col-md-12 col-sm-12">
+	<table ng-table="tableParams" class="table" show-filter="true">
+		<tr ng-repeat="user in $data">
+			<td title="'Name'" filter="{ name: 'text'}" sortable="'name'">
+				{{user.name}}</td>
+			<td title="'Age'" filter="{ age: 'number'}" sortable="'age'">
+				{{user.age}}</td>
+		</tr>
+	</table>
+</div>
+
+{{foo}}

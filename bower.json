@@ -54,7 +54,8 @@
     "textAngular": "~1.4.6",
     "angular-xeditable": "~0.5.0",
     "ng-js-tree": "~0.0.7",
-    "angular-ui-select": "^0.19.6"
+    "angular-ui-select": "^0.19.6",
+    "ng-table": "^1.0.0"
   },
   "resolutions": {
     "angular": "~1.5.9",
@@ -70,6 +71,15 @@
         "./dist/amcharts/pie.js",
         "./dist/amcharts/gantt.js"
       ]
+    },
+    "ng-table": {
+      "main": [
+        "./dist/ng-table.min.css",
+        "./dist/ng-table.min.js"
+      ],
+      "dependencies": {
+        "angular": "~1.4.8"
+      }
     },
     "amcharts-stock": {
       "main": "./dist/amcharts/amstock.js"

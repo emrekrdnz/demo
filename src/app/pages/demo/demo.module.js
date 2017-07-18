@@ -14,7 +14,7 @@
 			.state('demo', {
 				url: '/demo',
 				templateUrl: 'app/pages/demo/demo.html',
-				controllerAs: 'demoController',
+				controller: 'demoController',
 				title: 'demo',
 				sidebarMeta: {
 					icon: 'ion-android-home',
